@@ -1,0 +1,102 @@
+[
+  {
+    "id": 0,
+    "name": "Leola Clinch",
+    "sex": "female",
+    "age": 68,
+    "height": 1.85,
+    "weight": 67.56,
+    "sensorIds": [3],
+    "idDocs": [2, 1, 4]
+  },
+  {
+    "id": 1,
+    "name": "Flossie Worley",
+    "sex": "male",
+    "age": 62,
+    "height": 1.88,
+    "weight": 73.31,
+    "sensorIds": [3],
+    "idDocs": [4, 1, 2, 3, 0]
+  },
+  {
+    "id": 2,
+    "name": "Amy Perego",
+    "sex": "male",
+    "age": 88,
+    "height": 1.7,
+    "weight": 60.09,
+    "sensorIds": [3],
+    "idDocs": [1]
+  },
+  {
+    "id": 3,
+    "name": "Frances Case",
+    "sex": "male",
+    "age": 63,
+    "height": 1.6,
+    "weight": 68.24,
+    "sensorIds": [3],
+    "idDocs": [0, 4]
+  },
+  {
+    "id": 4,
+    "name": "Helen Ayers",
+    "sex": "female",
+    "age": 56,
+    "height": 1.75,
+    "weight": 61.96,
+    "sensorIds": [3],
+    "idDocs": [4, 1, 3, 0]
+  },
+  {
+    "id": 5,
+    "name": "Willa Poreda",
+    "sex": "female",
+    "age": 84,
+    "height": 1.96,
+    "weight": 68.72,
+    "sensorIds": [3],
+    "idDocs": [0, 4, 1]
+  },
+  {
+    "id": 6,
+    "name": "Joe May",
+    "sex": "female",
+    "age": 63,
+    "height": 1.72,
+    "weight": 68.05,
+    "sensorIds": [3],
+    "idDocs": [0, 3]
+  },
+  {
+    "id": 7,
+    "name": "James Waters",
+    "sex": "female",
+    "age": 80,
+    "height": 1.82,
+    "weight": 63.83,
+    "sensorIds": [3],
+    "idDocs": [4, 1, 2]
+  },
+  {
+    "id": 8,
+    "name": "Michael Cacciotti",
+    "sex": "male",
+    "age": 90,
+    "height": 1.67,
+    "weight": 82.06,
+    "sensorIds": [3],
+    "idDocs": [4, 2, 3]
+  },
+  {
+    "id": 9,
+    "name": "Thomas Perez",
+    "sex": "male",
+    "age": 86,
+    "height": 1.74,
+    "weight": 72.4,
+    "sensorIds": [3],
+    "idDocs": [2, 3, 4, 0]
+  }
+]

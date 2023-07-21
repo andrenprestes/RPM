@@ -1,0 +1,21 @@
+[
+  { "id": 0, "label": "Heat", "status": "working", "especification": "Heat!" },
+  {
+    "id": 1,
+    "label": "Preassure",
+    "status": "stoped",
+    "especification": "Preassure!"
+  },
+  {
+    "id": 2,
+    "label": "SOp2",
+    "status": "malfunction",
+    "especification": "SOp2!"
+  },
+  {
+    "id": 3,
+    "label": "Heart Beat",
+    "status": "working",
+    "especification": "Heart!"
+  }
+]

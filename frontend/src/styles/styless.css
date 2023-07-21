@@ -1,0 +1,614 @@
+.side-navbar {
+  width: 15vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #39C2EF;
+  margin: 0;
+  padding: 0;
+  position:absolute;
+}
+
+.App {
+  background-color: #F5F4FF;
+}
+
+.SidebarList{
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.SidebarList .row{
+  width: 100%;
+  height: 50px;
+  box-shadow: 0px 2px 2px -2px #39C2EF;
+  margin: 0;
+  padding-left: 5%;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.SidebarList2{
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.SidebarList2 .row{
+  width: 100%;
+  height: 50px;
+  box-shadow: 0px 2px 2px -2px #39C2EF;
+  margin: 0;
+  padding-left: 5%;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.row #icon{
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title{
+  flex: 70%;
+  color: #696969;
+}
+
+.inf #icon{
+  flex: 10%;
+  display: grid;
+  place-items: center;
+  padding-bottom: 2%;
+}
+
+.inf #title{
+  flex: 90%;
+  color: #696969;
+  padding-left: 10%;
+  padding-bottom: 2%;
+}
+
+.row:hover{
+  cursor: pointer;
+  background-color: #d1f3ff;
+}
+
+ #active{
+  background-color: #97e3fc;
+}
+.name{
+  height: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20%;
+  box-shadow: 0px 2px 2px -2px #39C2EF;
+}
+
+.logo{
+  width: 66%;
+  display: flex;
+  border-radius: 100px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 17%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  background-color: #696969;
+  border: 1px solid #39C2EF;
+  height: 20%;
+}
+
+.a{
+  position:absolute;
+  bottom:0;
+  left: 0;
+  padding-bottom:20px;
+  width: 15vw;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-top: 1%;
+  padding-left: 15%;
+}
+
+
+.search {
+  width: 90%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.resultP {
+  width: 90%;
+  background-color: white;
+  border-radius: 10px;
+  overflow-y: scroll;
+  margin-bottom: 2%;
+  border: 1px solid #39C2EF;
+  height: 80%;
+}
+
+.resultP::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome browsers */
+}
+
+.resultP {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;  /* mozilla */
+  height: 80%;
+}
+
+.resultP2 {
+  width: 90%;
+  background-color: white;
+  border-radius: 10px;
+  overflow-y: scroll;
+  margin-bottom: 2%;
+  border: 1px solid #39C2EF;
+  height: 90%;
+}
+
+.resultP2::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome browsers */
+}
+
+.resultP2 {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;  /* mozilla */
+  height: 90%;
+}
+
+.row #name{
+  flex: 70%;
+  display: grid;
+  place-items: left;
+}
+
+.row #sex{
+  flex: 10%;
+  color: #696969;
+}
+
+.row #age{
+  flex: 10%;
+  color: #696969;
+}
+
+.row #icon2{
+  flex: 10%;
+  color: #696969;
+}
+
+
+
+.row #icon3{
+  flex: 10%;
+  color: #696969;
+}
+.patientInfo{
+  background-color: white;
+  height: 90%;
+  margin-left: 18%;
+  margin-top: 1%;
+  width: 20%;
+  border-radius: 10px;
+  border: 1px solid #39C2EF;
+  position: absolute;
+  left: 0;
+  overflow-y: scroll;
+}
+
+.patientInfo {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;  /* mozilla */
+  border-radius: 10px;
+}
+
+.patientInfo::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome browsers */
+  border-radius: 10px;
+}
+
+.patientInfo2{
+  background-color: white;
+  height: 86%;
+  margin-left: 18%;
+  margin-top: 1%;
+  width: 25%;
+  border-radius: 10px;
+  border: 1px solid #39C2EF;
+  position: absolute;
+  left: 0;
+}
+
+.patientInfo2 .search {
+  width: 90%;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.patientInfo2 .img{
+  width: 56%;
+  margin-top: 5%;
+  margin-left: 22%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  height: 33%;
+  border-radius: 1000px;
+  border: 1px solid #39C2EF;
+}
+
+.SidebarList .img{
+  width: 50%;
+  height: 100%;
+}
+
+.patientInfo .search {
+  width: 90%;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.patientInfo .inf {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  box-shadow: 0px 2px 2px -2px #39C2EF;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.patientInfo .img{
+  width: 55%;
+  margin-top: 5%;
+  margin-left: 22.5%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  height: 25%;
+  border-radius: 1000px;
+  border: 1px solid #39C2EF;
+  overflow-y:hidden;
+}
+
+.cover {
+  object-fit: cover;
+  border-radius: 1000px;
+  border: 1px solid #39C2EF;
+}
+
+.patientEsp2 .remedy .search {
+  width: 90%;
+  background-color: white;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.patientEsp2{
+  height: 85.6%;
+  margin-left: 45%;
+  margin-top: 1%;
+  width: 52%;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+}
+
+.patientEsp2 .search {
+  width: 100%;
+  background-color: white;
+}
+
+.patientEsp2 .resultP {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  overflow-y: scroll;
+  margin-top: 2%;
+  border: 1px solid #39C2EF;
+  height: 91.1%;
+}
+
+.patientEsp2 .resultP::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome browsers */
+  border-radius: 10px;
+}
+
+.patientEsp2 .resultP {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;  /* mozilla */
+  border-radius: 10px;
+}
+
+.patientEsp2 .remedy{
+  width: 100%;
+  height: 53%;
+  background-color: white;
+  margin-top: 2%;
+  border: 1px solid #39C2EF;
+  border-radius: 10px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.patientEsp2 .left{
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.patientEsp2 .right{
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+  border: 1px solid #39C2EF;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.patientEsp2 .right::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome browsers */
+}
+
+.patientEsp2 .right {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;  /* mozilla */
+  height: 80%;
+}
+
+.patientEsp .remedy .search {
+  width: 90%;
+  background-color: white;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.patientEsp{
+  height: 92%;
+  margin-left: 20%;
+  margin-top: 1.2%;
+  width: 62%;
+  border-radius: 10px;
+  left: 0;
+}
+
+.patientEsp .search {
+  width: 100%;
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menus {
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 3.5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.patientEsp .resultP {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  overflow-y: scroll;
+  margin-top: 2%;
+  border: 1px solid #39C2EF;
+  height: 91.1%;
+}
+
+.patientEsp.resultP::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome browsers */
+  border-radius: 10px;
+}
+
+.patientEsp .resultP {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;  /* mozilla */
+  border-radius: 10px;
+}
+
+.patientEsp .remedy{
+  width: 100%;
+  height: 53%;
+  background-color: white;
+  margin-top: 2%;
+  border: 1px solid #39C2EF;
+  border-radius: 10px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.patientEsp .left{
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.patientEsp .right{
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: white;
+  border: 1px solid #39C2EF;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.patientEsp .right::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome browsers */
+}
+
+.patientEsp .right {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;  /* mozilla */
+  height: 80%;
+}
+
+.row #nameR{
+  flex: 50%;
+  display: grid;
+  place-items: left;
+}
+
+.row #dosage{
+  flex: 5%;
+  color: #696969;
+}
+
+.row #duration{
+  flex: 5%;
+  color: #696969;
+}
+
+.row #times{
+  flex: 5%;
+  color: #696969;
+}
+
+.row #remove{
+  flex: 1%;
+  color: #696969;
+}
+
+.espinf{
+  background-color: white;
+  width: 90%;
+  height: 40%;
+  border-radius: 10px;
+  border: 1px solid #39C2EF;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.generalinf{
+  
+  width: 90%;
+  height: 54.25%;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+}
+.generalinf .sensor{
+  
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: 1px solid #39C2EF;
+  border-radius: 10px;
+}
+.generalinf .sensorl{
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  border-radius: 10px;
+}
+.generalinf .sensorl::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome browsers */
+}
+
+.generalinf .sensorl {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;  /* mozilla */
+}
+
+.t{
+  height: 30%;
+  width: 100%; 
+  border-bottom-right-radius: 1000px;
+  border-bottom-left-radius: 1000px; 
+  border-top-right-radius: 30px; 
+  border-top-left-radius: 30px;
+  background: linear-gradient( #9198e5,#39C2EF);
+}
+
+
+.row21{
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding-left: 5%;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.row21 #name{
+  flex: 70%;
+  display: grid;
+  place-items: left;
+}
+
+.row21 #sex{
+  flex: 10%;
+  color: #696969;
+}
+
+.row21 #age{
+  flex: 10%;
+  color: #696969;
+}
+
+.row21 #icon2{
+  flex: 10%;
+  color: #696969;
+}
+
+.date{
+  width: 30%;
+  height: 100%;
+  margin-right: 5%;
+  background: linear-gradient(to right, #9198e5,#39C2EF);
+}
